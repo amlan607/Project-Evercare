@@ -61,7 +61,7 @@ Before setting up the project, ensure that the following tools are installed on 
 - Open your terminal or command prompt from any directory.
 - Clone the project using the following command:
   ```bash
-  git clone https://github.com/sekul-hassan/StoreManagement
+  https://github.com/amlan607/Project-Evercare.git
 
 
 - **IDE :** If you want to edit something.(Like VSCODE, Intelije IDEA, Netbeans).
@@ -69,8 +69,8 @@ Before setting up the project, ensure that the following tools are installed on 
 
 ## Download Project 
 - Open your pc ``terminal/cmd`` from any directory.
-- Copy this command and past it ```git clone https://github.com/sekul-hassan/StoreManagement``` You look download this project.
-- Then ``cd StoreManagement`` go to project directory.
+- Copy this command and past it ```https://github.com/amlan607/Project-Evercare.git``` You look download this project.
+- Then ``cd StoreManagemen`` go to project directory.
 
 ## Database Configuration
 - **Open xampp :** click search bar xampp start the Apaache and MySQL.
