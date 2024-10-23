@@ -120,7 +120,7 @@ public final class Opsonin extends javax.swing.JFrame {
 
         order.setBackground(new java.awt.Color(204, 255, 204));
         order.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        order.setText("Adto Cart");
+        order.setText("Add to Cart");
         order.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 orderActionPerformed(evt);
