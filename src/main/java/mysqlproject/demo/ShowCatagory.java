@@ -206,7 +206,7 @@ public class ShowCatagory extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        ShowCloths se = new ShowCloths();
+        Square se = new Square();
         se.setVisible(true);
         setVisible(false);
     }//GEN-LAST:event_jButton6ActionPerformed

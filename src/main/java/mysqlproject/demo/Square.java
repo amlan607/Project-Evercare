@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author ASUS
  */
-public final class ShowCloths extends javax.swing.JFrame {
+public final class Square extends javax.swing.JFrame {
 
     /**
      * Creates new form ShowClaths
@@ -27,7 +27,7 @@ public final class ShowCloths extends javax.swing.JFrame {
     int r = 0;
     String Name = "", Email = "", Product = "", PID = "", PRISE = "";
 
-    public ShowCloths() {
+    public Square() {
         initComponents();
         table_loaded();
     }
@@ -425,13 +425,13 @@ public final class ShowCloths extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ShowCloths.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Square.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ShowCloths.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Square.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ShowCloths.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Square.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ShowCloths.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Square.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -439,7 +439,7 @@ public final class ShowCloths extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ShowCloths().setVisible(true);
+                new Square().setVisible(true);
             }
         });
     }
