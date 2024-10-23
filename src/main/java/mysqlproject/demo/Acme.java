@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author ASUS
  */
-public final class ShowCosmatics extends javax.swing.JFrame {
+public final class Acme extends javax.swing.JFrame {
 
     /**
      * Creates new form ShowCosmatics
@@ -31,7 +31,7 @@ public final class ShowCosmatics extends javax.swing.JFrame {
     int r = 0;
     String Name = "", Email = "", Product = "", PID = "", PRISE = "";
 
-    public ShowCosmatics() {
+    public Acme() {
         initComponents();
         table_loaded();
     }
@@ -300,7 +300,7 @@ public final class ShowCosmatics extends javax.swing.JFrame {
                 model.addRow(row);
             }
         } catch (SQLException ex) {
-            Logger.getLogger(ShowElectronics.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Opsonin.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -335,7 +335,7 @@ public final class ShowCosmatics extends javax.swing.JFrame {
             }
 
         } catch (SQLException ex) {
-            Logger.getLogger(ShowElectronics.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Opsonin.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_orderActionPerformed
 
@@ -384,7 +384,7 @@ public final class ShowCosmatics extends javax.swing.JFrame {
 
                     JOptionPane.showMessageDialog(null, "Order Successfully Done! ");
                 } catch (SQLException ex) {
-                    Logger.getLogger(ShowElectronics.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Opsonin.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 JOptionPane.showMessageDialog(null, "First Add to Cart!");
@@ -427,20 +427,20 @@ public final class ShowCosmatics extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ShowCosmatics.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Acme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ShowCosmatics.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Acme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ShowCosmatics.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Acme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ShowCosmatics.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Acme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ShowCosmatics().setVisible(true);
+                new Acme().setVisible(true);
             }
         });
     }

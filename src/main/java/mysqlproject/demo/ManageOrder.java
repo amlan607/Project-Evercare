@@ -59,7 +59,7 @@ public final class ManageOrder extends javax.swing.JFrame {
                 model.addRow(row);
             }
         } catch (SQLException ex) {
-            Logger.getLogger(ShowElectronics.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Opsonin.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }

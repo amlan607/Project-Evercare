@@ -192,7 +192,7 @@ public class ShowCatagory extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        ShowElectronics se = new ShowElectronics();
+        Opsonin se = new Opsonin();
         se.setVisible(true);
         setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -213,7 +213,7 @@ public class ShowCatagory extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        ShowCosmatics se = new ShowCosmatics();
+        Acme se = new Acme();
         se.setVisible(true);
         setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed

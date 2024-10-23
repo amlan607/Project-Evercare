@@ -58,7 +58,7 @@ public final class ShowOthers extends javax.swing.JFrame {
                 model.addRow(row);
             }
         } catch (SQLException ex) {
-            Logger.getLogger(ShowElectronics.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Opsonin.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -333,7 +333,7 @@ public final class ShowOthers extends javax.swing.JFrame {
             }
 
         } catch (SQLException ex) {
-            Logger.getLogger(ShowElectronics.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Opsonin.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_orderActionPerformed
 
@@ -373,7 +373,7 @@ public final class ShowOthers extends javax.swing.JFrame {
 
                     JOptionPane.showMessageDialog(null, "Order Successfully Done! ");
                 } catch (SQLException ex) {
-                    Logger.getLogger(ShowElectronics.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Opsonin.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 JOptionPane.showMessageDialog(null, "First Add to Cart!");
